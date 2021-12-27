@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
+  font-family: monospace;
 }
 
 h1,
@@ -19,14 +20,32 @@ h2 {
   text-align: center;
 }
 
-.table_tags {
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: rgb(243, 25, 243);
+  font-size: 2rem;
+}
+
+table {
   border: 2px solid rgb(243, 25, 243);
+  width: 48rem;
 }
 
 th {
   background-color: rgb(245, 147, 245);
+  font-size: 1.5rem;
 }
 
 td {
   border-top: 1px solid rgb(243, 25, 243);
+  font-size: 1rem;
+}
+
+span {
+  background-color: beige;
 }
