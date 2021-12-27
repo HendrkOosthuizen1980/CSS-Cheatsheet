@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  display: flex;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.table_tags {
+  border: 2px solid rgb(243, 25, 243);
+}
+
+th {
+  background-color: rgb(245, 147, 245);
+}
+
+td {
+  border-top: 1px solid rgb(243, 25, 243);
+}
